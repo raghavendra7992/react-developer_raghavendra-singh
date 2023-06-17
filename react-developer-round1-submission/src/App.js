@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" component={PageCRM} />
-        <Route path="/pagecrm1" component={PageCRM2} />
-        <Route path="/pagecrm2" component={PageCRM3} />
+        <Route path="/" element={<PageCRM/>} />
+        <Route path="/pagecrm1" element={<PageCRM2/>} />
+        <Route path="/pagecrm2" element={<PageCRM3/>} />
       </Routes>
     </Router>
   );
